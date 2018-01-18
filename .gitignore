@@ -8,4 +8,4 @@
 /build
 
 # configuration
-/src/config.js
+config.js

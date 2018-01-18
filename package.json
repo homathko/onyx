@@ -4,12 +4,17 @@
   "description": "Secret project to make a little black box that can talk to space",
   "main": "onyx.js",
   "scripts": {
-    "start": "node app.js"
+    "clean": "rimraf build",
+    "build": "rimraf build && babel src -d build",
+    "start": "npm run build && node build/onyx.js"
   },
   "author": "Homathko",
   "license": "ISC",
   "dependencies": {
     "event-pubsub": "^4.3.0",
-    "node-cron": "^1.2.1"
-  }
+    "node-cron": "^1.2.1",
+    "onoff": "^1.1.9",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {}
 }

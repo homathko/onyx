@@ -1,39 +1,25 @@
 /**
- * App.js
+ * ApplicationController.js
  *
- * Application controller responsible for system startup and
- * shutdown (i.e. hardware modules individual status, memory status,
- * logging activities, and cron) and initiating the event system
+ * Application controller responsible for hardware system startup and
+ * shutdown and initiating the event system
  *
  * @class ApplicationController
  *
  */
 
 
-import config from './config';
+const config = require('../config.js');
 
 class ApplicationController {
     constructor() {
-        /**
-         * Bluetooth
-         * GPIO Pins
-         *  -   LEDs
-         *  -   Push buttons
-         *  -   Power supply
-         *      -   AC line
-         *      -   Battery
-         *  -   Control pots
-         * BerryIMU
-         */
         
         this._stuff = config;
     }
-    
-    get systemEvents() {
-    
-    }
-    
+
     start() {
-    
+        console.log(this._stuff);
     }
 }
+
+module.exports = ApplicationController;
