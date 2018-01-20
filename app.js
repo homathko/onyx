@@ -1,4 +1,4 @@
-const App = require('./lib/ApplicationController');
+const App = require('./lib/AppController');
 
 const app = new App;
 

@@ -16,5 +16,7 @@
     "onoff": "^1.1.9",
     "rimraf": "^2.6.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chalk": "^2.3.0"
+  }
 }
