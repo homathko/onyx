@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "event-pubsub": "^4.3.0",
+    "node-bluetooth": "^1.2.0",
     "node-cron": "^1.2.1",
     "onoff": "^1.1.9",
     "rimraf": "^2.6.2"
