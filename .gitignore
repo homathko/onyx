@@ -9,3 +9,6 @@
 
 # configuration
 config.js
+
+# logs
+/imu-logs
