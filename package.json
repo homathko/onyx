@@ -8,11 +8,13 @@
   "license": "ISC",
   "dependencies": {
     "event-pubsub": "^4.3.0",
+    "iridium-sbd": "0.0.11",
     "kalmanjs": "^1.0.0-beta",
     "node-bluetooth": "^1.2.0",
     "node-cron": "^1.2.1",
     "onoff": "^1.1.9",
     "parser-readline": "^1.0.2",
+    "protobufjs": "^6.8.6",
     "rimraf": "^2.6.2"
   },
   "devDependencies": {

@@ -1,0 +1,87 @@
+{
+  "nested": {
+    "onyx": {
+      "nested": {
+        "Posrep": {
+          "fields": {
+            "latitude": {
+              "type": "float",
+              "id": 1
+            },
+            "longitude": {
+              "type": "float",
+              "id": 2
+            },
+            "altInMeters": {
+              "type": "uint32",
+              "id": 5
+            },
+            "speedInMps": {
+              "type": "uint32",
+              "id": 6
+            },
+            "mode": {
+              "type": "PosMode",
+              "id": 7
+            }
+          },
+          "nested": {
+            "PosMode": {
+              "values": {
+                "TRACK_START": 0,
+                "SPEEDUP": 1,
+                "SPEEDDOWN": 2,
+                "TRACK_END": 3,
+                "PING": 4
+              }
+            }
+          }
+        },
+        "Message": {
+          "fields": {
+            "imei": {
+              "type": "string",
+              "id": 1
+            },
+            "dateTime": {
+              "type": "double",
+              "id": 2
+            },
+            "latitude": {
+              "type": "float",
+              "id": 3
+            },
+            "longitude": {
+              "type": "float",
+              "id": 4
+            },
+            "altInMeters": {
+              "type": "uint32",
+              "id": 5
+            },
+            "speedInMps": {
+              "type": "uint32",
+              "id": 6
+            },
+            "mode": {
+              "type": "MessageMode",
+              "id": 7
+            }
+          },
+          "nested": {
+            "MessageMode": {
+              "values": {
+                "DISTRESS": 0,
+                "SYSTEM": 1,
+                "AIR_GROUND": 2,
+                "AIR_AIR": 3,
+                "GROUND_AIR": 4,
+                "GROUND_GROUND": 5
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

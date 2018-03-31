@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a1aba1e-fc61-40e0-88a7-976265caa29a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/Components/FlightDataComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Components/SBDComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/SBDCoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onyx-proto.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CommandObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CommandObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BNO055.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ComponentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ComponentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Components/ButtonComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components/ButtonComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Components/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components/Component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Components/CronComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components/CronComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Components/FlightDataComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components/FlightDataComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Components/GPSComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Components/GPSComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/EventDirector.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/EventDirector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/FlightDataAggregate.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/FlightDataAggregate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,17 +34,17 @@
       <file leaf-file-name="GPSComponent.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Components/GPSComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Components/Component.js">
+      <file leaf-file-name="CronComponent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Components/CronComponent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="340">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,35 +52,8 @@
       <file leaf-file-name="EventDirector.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/EventDirector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonComponent.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/Components/ButtonComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsoleComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Components/ConsoleComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightDataComponent.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+            <state relative-caret-position="663">
+              <caret line="39" column="127" selection-start-line="39" selection-start-column="127" selection-end-line="39" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -85,8 +61,26 @@
       <file leaf-file-name="CommandObject.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/CommandObject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="44" column="140" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="140" />
+            <state relative-caret-position="765">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlightDataComponent.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SBDComponent.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Components/SBDComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -94,8 +88,17 @@
       <file leaf-file-name="FlightDataAggregate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/FlightDataAggregate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -119,6 +122,7 @@
       <find>setState</find>
       <find>devices</find>
       <find>transmitData</find>
+      <find>lattitude</find>
     </findStrings>
     <replaceStrings>
       <replace>nodes</replace>
@@ -134,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app.js" />
         <option value="$PROJECT_DIR$/src/config.js" />
         <option value="$PROJECT_DIR$/src/HardwareController.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
@@ -170,20 +173,22 @@
         <option value="&lt;2dfd89d2-c9ba-445d-97ad-51c76f447542&gt;/onyx/imu-cal-data.json" />
         <option value="$PROJECT_DIR$/lib/utils/Velocity.js" />
         <option value="$PROJECT_DIR$/lib/Components/IMUComponent.js" />
-        <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/lib/utils/deviceTree.js" />
         <option value="$PROJECT_DIR$/lib/Components/ConsoleComponent.js" />
         <option value="$PROJECT_DIR$/lib/Components/FlightDataAggregate.js" />
         <option value="$PROJECT_DIR$/lib/AppController.js" />
-        <option value="$PROJECT_DIR$/lib/Components/CronComponent.js" />
-        <option value="$PROJECT_DIR$/lib/ComponentController.js" />
         <option value="$PROJECT_DIR$/lib/Components/Component.js" />
         <option value="$PROJECT_DIR$/lib/Components/ButtonComponent.js" />
         <option value="$PROJECT_DIR$/lib/CommandObject.js" />
         <option value="$PROJECT_DIR$/lib/Components/GPSComponent.js" />
-        <option value="$PROJECT_DIR$/lib/EventDirector.js" />
-        <option value="$PROJECT_DIR$/lib/FlightDataAggregate.js" />
+        <option value="$PROJECT_DIR$/lib/ComponentController.js" />
+        <option value="$PROJECT_DIR$/lib/SBDCoder.js" />
+        <option value="$PROJECT_DIR$/lib/Components/SBDComponent.js" />
         <option value="$PROJECT_DIR$/lib/Components/FlightDataComponent.js" />
+        <option value="$PROJECT_DIR$/lib/FlightDataAggregate.js" />
+        <option value="$PROJECT_DIR$/lib/EventDirector.js" />
+        <option value="$PROJECT_DIR$/config.js" />
+        <option value="$PROJECT_DIR$/lib/Components/CronComponent.js" />
       </list>
     </option>
   </component>
@@ -208,7 +213,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -218,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,7 +246,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,7 +365,9 @@
       <workItem from="1522432669188" duration="56000" />
       <workItem from="1522432743312" duration="544000" />
       <workItem from="1522433509766" duration="17000" />
-      <workItem from="1522434123293" duration="1980000" />
+      <workItem from="1522434123293" duration="10284000" />
+      <workItem from="1522449128723" duration="415000" />
+      <workItem from="1522449720723" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="Saving progress before dismantling completely">
       <created>1516745934239</created>
@@ -397,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522358443706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="EventDirecotr (actions added). GPS and flight-data state watching">
+      <created>1522436146231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522436146231</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207642000" />
+    <option name="totallyTimeSpent" value="218431000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,28 +428,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.10436635" />
+      <window_info content_ui="combo" x="681" y="441" width="80" height="40" id="Project" order="0" sideWeight="0.55925155" visible="true" weight="0.15335463" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952183" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.7646745" side_tool="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.34398296" visible="true" weight="0.45625" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.40894568" weight="0.43970895" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.3402556" weight="0.33679834" />
       <window_info auto_hide="true" x="878" y="349" width="160" height="404" id="npm" order="2" sideWeight="0.5733634" side_tool="true" type="FLOATING" weight="0.1943557" />
-      <window_info anchor="bottom" x="681" y="441" width="80" height="40" id="Terminal" order="10" sideWeight="0.3365282" weight="0.36770833" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.14110756" />
-      <window_info content_ui="combo" x="681" y="441" width="80" height="40" id="Project" order="0" sideWeight="0.55925155" visible="true" weight="0.20021299" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info id="Structure" order="1" sideWeight="0.42663658" side_tool="true" weight="0.20021299" />
+      <window_info anchor="bottom" x="681" y="441" width="80" height="40" id="Terminal" order="10" sideWeight="0.33476394" visible="true" weight="0.29791668" />
       <window_info id="Favorites" order="3" sideWeight="0.44074845" side_tool="true" weight="0.1398079" />
-      <window_info active="true" anchor="bottom" x="534" y="221" width="368" height="481" id="Debug" order="3" sideWeight="0.65601707" side_tool="true" visible="true" weight="0.45625" />
+      <window_info anchor="bottom" x="534" y="221" width="368" height="481" id="Debug" order="3" sideWeight="0.66523606" side_tool="true" weight="0.36666667" />
       <window_info id="Gulp" order="4" sideWeight="0.5069886" side_tool="true" weight="0.1814921" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.3796592" weight="0.32848233" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.37912673" weight="0.328125" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="11" sideWeight="0.34398296" weight="0.45625" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.4978701" weight="0.32952183" />
     </layout>
@@ -479,10 +492,28 @@
     <MESSAGE value="Complex state interactions beginning to happen between components" />
     <MESSAGE value="IMU Component added" />
     <MESSAGE value="GPS module and component class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="GPS module and component class added" />
+    <MESSAGE value="EventDirecotr (actions added). GPS and flight-data state watching" />
+    <option name="LAST_COMMIT_MESSAGE" value="EventDirecotr (actions added). GPS and flight-data state watching" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js</url>
+          <line>55</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js</url>
+          <line>59</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/lib/FlightDataAggregate.js</url>
+          <line>16</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -490,11 +521,28 @@
         <breakpoint type="dart-exception">
           <properties />
         </breakpoint>
+        <breakpoint enabled="true" type="javascript-exception">
+          <properties uncaughtOnly="true" />
+        </breakpoint>
       </default-breakpoints>
-      <option name="time" value="305" />
+      <option name="time" value="327" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>this._action.name === 'sendPing'</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>0</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>data.loc.geojson.coordinates[1]</expression-string>
@@ -544,34 +592,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/EventDirector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="114" selection-start-line="31" selection-start-column="114" selection-end-line="31" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/AppController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ComponentController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -633,13 +653,6 @@
     <entry file="file://$PROJECT_DIR$/lib/RPiIO/deviceTree.js" />
     <entry file="file://$PROJECT_DIR$/lib/Components/LED.js" />
     <entry file="file://$PROJECT_DIR$/lib/Components/Button.js" />
-    <entry file="file://$PROJECT_DIR$/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/utils/deviceTree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-37">
@@ -668,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/IMUComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -683,24 +689,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/EventDataObject.js" />
-    <entry file="file://$PROJECT_DIR$/lib/AppController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/event-pubsub/es6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/HardwareComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -711,48 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/ComponentController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/CronComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/CommandObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="44" column="140" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/FlightDataAggregate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/GPSComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Components/ConsoleComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -760,24 +710,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/EventDirector.js">
+    <entry file="file://$PROJECT_DIR$/lib/AppController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="91" selection-start-line="35" selection-start-column="91" selection-end-line="35" selection-end-column="91" />
+        <state relative-caret-position="275">
+          <caret line="17" column="81" lean-forward="true" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Components/Component.js">
+    <entry file="file://$PROJECT_DIR$/lib/Components/IMUComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="176">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Components/ButtonComponent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="344">
           <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/HardwareComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ComponentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/SBDCoder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onyx-proto.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.7.0/core-modules/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="654" lean-forward="true" selection-start-line="654" selection-end-line="654" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/CommandObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/EventDirector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="127" selection-start-line="39" selection-start-column="127" selection-end-line="39" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/FlightDataAggregate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/Component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="65" column="4" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/CronComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/FlightDataComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/GPSComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Components/SBDComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
